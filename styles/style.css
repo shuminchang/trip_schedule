@@ -69,7 +69,7 @@ section h2 {
     color: #fff;
     border-radius: 8px 8px 0 0;
     cursor: pointer;
-    background-image: url('/images/japan-image.jpg');
+    background-image: url('./images/japan-image.jpg');
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;

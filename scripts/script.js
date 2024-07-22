@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // Set background image for sections containing Osaka
                 if (containsOsaka) {
-                    h2.style.backgroundImage = "url('/images/osaka-image.jpg')";
+                    h2.style.backgroundImage = "url('./images/osaka-image.jpg')";
                 }
             });
 
