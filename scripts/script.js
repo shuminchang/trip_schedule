@@ -41,10 +41,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 scheduleContainer.appendChild(section);
 
                 // Initialize SortableJS on the <ul> element
-                new Sortable(ul, {
-                    animation: 150,
-                    ghostClass: 'sortable-ghost'
-                });
+                // new Sortable(ul, {
+                //     animation: 150,
+                //     ghostClass: 'sortable-ghost'
+                // });
 
                 // Expand section if it's today's date
                 const sectionDate = new Date(day.date);
@@ -71,13 +71,17 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function getEventIcon(description) {
-    if (description.includes('機場') || description.includes('飛')) {
-        return '<i class="fas fa-plane"></i>';
-    } else if (description.includes('渡輪')) {
-        return '<i class="fas fa-ship"></i>';
-    } else if (description.includes('車') || description.includes('新幹線') || description.includes('JR')) {
-        return '<i class="fas fa-train"></i>';
-    } else {
-        return '';
+    const iconMappings = [
+        { regex: /(機|飛)/i, icon: '<i class="fas fa-plane"></i>' },
+        { regex: /(渡輪|船)/i, icon: '<i class="fas fa-ship"></i>' },
+        { regex: /(車|新幹線|JR)/i, icon: '<i class="fas fa-train"></i>' },
+    ];
+
+    for (const mapping of iconMappings) {
+        if (mapping.regex.test(description)) {
+            return mapping.icon;
+        }
     }
+
+    return '';
 }
