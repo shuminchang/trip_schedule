@@ -1,0 +1,392 @@
+{
+  "schedule": [
+    {
+      "date": "2024/09/18",
+      "events": [
+        {
+          "time": "08:00",
+          "description": "抵達桃園機場",
+          "details": [
+            "需要物品：護照、登機證、行李",
+            "其他：提前2小時到達機場"
+          ],
+          "important": true
+        },
+        {
+          "time": "10:50 - 14:35",
+          "description": "飛大阪",
+          "details": [
+            "護照、登機證、行李"
+          ],
+          "important": false
+        },
+        {
+          "time": "下午",
+          "description": "搭Haruka電車到新大阪 (47分鐘)",
+          "details": [
+            "需要物品：車票、零食"
+          ],
+          "important": true
+        },
+        {
+          "time": "下午",
+          "description": "搭新幹線到廣島 (90分鐘)",
+          "details": [
+            "需要物品：車票、零食"
+          ],
+          "important": true
+        },
+        {
+          "description": "入住酒店",
+          "details": [
+            "需要物品：預訂確認"
+          ],
+          "important": false
+        },
+        {
+          "description": "廣島本通商店街 (晚餐)",
+          "details": [
+            "需要物品："
+          ],
+          "important": false
+        },
+        {
+          "description": "回酒店",
+          "details": [
+            "需要物品："
+          ],
+          "important": false
+        }
+      ]
+    },
+    {
+      "date": "2024/09/19",
+      "events": [
+        {
+          "time": "08:00",
+          "description": "早餐",
+          "details": [
+            "其他：嘗試當地美食"
+          ],
+          "important": false
+        },
+        {
+          "time": "09:00",
+          "description": "從廣島到JR宮島站 (大約30分鐘)",
+          "details": [
+            "需要物品：車票"
+          ],
+          "important": true
+        },
+        {
+          "time": "10:00",
+          "description": "嚴島渡輪",
+          "details": [
+            "需要物品：渡輪票"
+          ],
+          "important": true
+        },
+        {
+          "time": "11:00",
+          "description": "參觀嚴島神社大鳥居 (漲潮時)",
+          "details": [
+            "注意事項：拍照留念"
+          ],
+          "important": false
+        },
+        {
+          "time": "12:00",
+          "description": "參觀嚴島神社",
+          "details": [
+            "注意事項：了解歷史文化"
+          ],
+          "important": false
+        },
+        {
+          "time": "13:00",
+          "description": "在Anagomeshi星鰻飯吃午餐",
+          "details": [
+            "注意事項：品嚐當地美食"
+          ],
+          "important": false
+        },
+        {
+          "time": "14:00",
+          "description": "參觀大聖院",
+          "details": [
+            "注意事項：參拜和拍照"
+          ],
+          "important": false
+        },
+        {
+          "time": "15:00",
+          "description": "參觀嚴島神社大鳥居 (退潮時)",
+          "details": [
+            "注意事項：拍照留念"
+          ],
+          "important": false
+        },
+        {
+          "time": "16:00",
+          "description": "漫步宮島表參道商店街",
+          "details": [
+            "注意事項：購買紀念品"
+          ],
+          "important": false
+        },
+        {
+          "time": "17:00",
+          "description": "在宮島咖啡休息",
+          "details": [
+            "注意事項：品嚐咖啡和點心"
+          ],
+          "important": false
+        },
+        {
+          "time": "18:00",
+          "description": "在牡蠣祝或牡蠣屋吃晚餐",
+          "details": [
+            "注意事項：品嚐新鮮牡蠣"
+          ],
+          "important": false
+        },
+        {
+          "time": "19:00",
+          "description": "嚴島渡輪",
+          "details": [
+            "需要物品：渡輪票"
+          ],
+          "important": true
+        },
+        {
+          "time": "20:00",
+          "description": "探索廣島本通商店街",
+          "details": [
+            "注意事項：購物和觀光"
+          ],
+          "important": false
+        },
+        {
+          "time": "21:00",
+          "description": "住宿在廣島",
+          "details": [
+            "需要物品：預訂確認"
+          ],
+          "important": false
+        }
+      ]
+    },
+    {
+      "date": "2024/09/20",
+      "events": [
+        {
+          "time": "08:00",
+          "description": "早餐",
+          "details": [
+            "其他：嘗試當地美食"
+          ],
+          "important": false
+        },
+        {
+          "time": "09:00",
+          "description": "搭電車從廣島到竹原 (大約60分鐘)",
+          "details": [
+            "需要物品：車票"
+          ],
+          "important": true
+        },
+        {
+          "time": "10:00",
+          "description": "參觀竹原町街景保存地區",
+          "details": [
+            "注意事項：拍照留念"
+          ],
+          "important": false
+        },
+        {
+          "time": "14:00",
+          "description": "搭電車從竹原返回廣島 (大約60分鐘)",
+          "details": [
+            "需要物品：車票"
+          ],
+          "important": true
+        },
+        {
+          "time": "15:00",
+          "description": "參觀廣島城",
+          "details": [
+            "注意事項：了解歷史"
+          ],
+          "important": false
+        },
+        {
+          "time": "18:00",
+          "description": "參觀原爆、紙鶴塔、和平和紀念公園、可麗露專賣店",
+          "details": [
+            "注意事項：感受歷史"
+          ],
+          "important": false
+        },
+        {
+          "time": "19:00",
+          "description": "乘電車返回",
+          "details": [
+            "需要物品：車票"
+          ],
+          "important": true
+        },
+        {
+          "time": "19:30",
+          "description": "廣島燒",
+          "details": [
+            "需要物品：車票"
+          ],
+          "important": false
+        },
+        {
+          "time": "20:00",
+          "description": "探索廣島本通商店街",
+          "details": [
+            "注意事項：購物和觀光"
+          ],
+          "important": false
+        },
+        {
+          "time": "21:00",
+          "description": "住宿在廣島",
+          "details": [
+            "需要物品：預訂確認"
+          ],
+          "important": false
+        }
+      ]
+    },
+    {
+      "date": "2024/09/21",
+      "events": [
+        {
+          "time": "08:00",
+          "description": "退房",
+          "details": [
+            "需要物品：行李"
+          ],
+          "important": false
+        },
+        {
+          "time": "09:00",
+          "description": "乘火車從廣島到岡山 (大約120分鐘)",
+          "details": [
+            "需要物品：車票"
+          ],
+          "important": true
+        },
+        {
+          "time": "12:00",
+          "description": "參觀倉敷美觀地區",
+          "details": [
+            "注意事項：拍照留念"
+          ],
+          "important": false
+        },
+        {
+          "time": "下午",
+          "description": "搭電車從岡山到大阪 (大約120分鐘)",
+          "details": [
+            "需要物品：車票"
+          ],
+          "important": true
+        },
+        {
+          "description": "搭電車到酒店",
+          "details": [
+            "需要物品：預訂確認"
+          ],
+          "important": true
+        },
+        {
+          "description": "在阿倍野或道頓堀吃晚餐",
+          "details": [
+            "注意事項：品嚐當地美食"
+          ],
+          "important": false
+        },
+        {
+          "description": "住宿在大阪",
+          "details": [
+            "需要物品：預訂確認"
+          ],
+          "important": false
+        }
+      ]
+    },
+    {
+      "date": "2024/09/22",
+      "events": [
+        {
+          "time": "08:00",
+          "description": "早餐",
+          "details": [
+            "其他：嘗試當地美食"
+          ],
+          "important": false
+        },
+        {
+          "time": "09:00",
+          "description": "寄行李/電車",
+          "details": [
+            "注意事項：行李、車票"
+          ],
+          "important": true
+        },
+        {
+          "time": "10:00",
+          "description": "參觀大阪城",
+          "details": [
+            "注意事項：了解大阪歷史"
+          ],
+          "important": false
+        },
+        {
+          "time": "12:00",
+          "description": "午餐",
+          "details": [
+            "需要物品："
+          ],
+          "important": false
+        },
+        {
+          "time": "13:00",
+          "description": "參觀住吉大社",
+          "details": [
+            "注意事項：參拜和拍照"
+          ],
+          "important": false
+        },
+        {
+          "time": "15:00",
+          "description": "取行李、搭電車",
+          "details": [
+            "需要物品：車票"
+          ],
+          "important": true
+        },
+        {
+          "time": "15:30",
+          "description": "從Haruka到關西機場 (47分鐘)",
+          "details": [
+            "需要物品：車票"
+          ],
+          "important": true
+        },
+        {
+          "time": "19:30 - 21:00",
+          "description": "飛回台北",
+          "details": [
+            "需要物品：護照、登機證、行李"
+          ],
+          "important": false
+        }
+      ]
+    }
+  ]
+}

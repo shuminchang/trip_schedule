@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#map {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+}
+
+#location-input {
+    width: calc(80% - 24px);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#add-location {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#add-location:hover {
+    background-color: #0056b3;
+}
+
+section {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin: 0;
+    padding: 15px;
+    /* background-color: #007bff; */
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+    background-image: url('/images/japan-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+section ul li {
+    padding: 15px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+section ul li:last-child {
+    border-bottom: none;
+}
+
+section ul li details {
+    cursor: pointer;
+}
+
+section ul li details[open] summary {
+    font-weight: bold;
+}
+
+section.collapsed ul {
+    display: none;
+}
+
+section.expanded ul {
+    display: block;
+}
+
+.sortable-ghost {
+    opacity: 0.4;
+    background-color: #f0f0f0;
+    border: 1px dashed #007bff;
+}
+
+details.important summary {
+    background-color: #ffcccc; /* Light red background */
+    color: #ff0000; /* Red text */
+    border-radius: 4px;
+    padding: 10px;
+}
