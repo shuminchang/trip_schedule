@@ -46,7 +46,15 @@
         {
           "description": "廣島本通商店街 (晚餐)",
           "details": [
-            "需要物品："
+            "需要物品：",
+            {
+              "restaurants": [
+                {"url": "https://maps.app.goo.gl/ML4gzGwRyQ3enfXCA", "name": "廣島燒"},
+                {"url": "https://maps.app.goo.gl/Bcik3bru6GXCsg22A", "name": "丸美食堂"},
+                {"url": "https://maps.app.goo.gl/VJLQr2CZjQ9ByqtVA", "name": "乾拌擔擔麵"},
+                {"url": "https://maps.app.goo.gl/W8Wi4KupeF1J8hWX8", "name": "廣島燒商場"}
+              ]
+            }
           ],
           "important": false
         },
@@ -106,7 +114,12 @@
           "time": "13:00",
           "description": "在Anagomeshi星鰻飯吃午餐",
           "details": [
-            "注意事項：品嚐當地美食"
+            "注意事項：品嚐當地美食",
+            {
+              "restaurants": [
+                {"url": "https://maps.app.goo.gl/AZPGMTCijJ7QbSZd6", "name": "Anagomeshi星鰻飯"}
+              ]
+            }
           ],
           "important": false
         },
@@ -138,7 +151,12 @@
           "time": "17:00",
           "description": "在宮島咖啡休息",
           "details": [
-            "注意事項：品嚐咖啡和點心"
+            "注意事項：品嚐咖啡和點心",
+            {
+              "restaurants": [
+                {"url": "https://maps.app.goo.gl/rZhVJ1mK2fbW23Je9", "name": "宮島咖啡"}
+              ]
+            }
           ],
           "important": false
         },
@@ -146,7 +164,13 @@
           "time": "18:00",
           "description": "在牡蠣祝或牡蠣屋吃晚餐",
           "details": [
-            "注意事項：品嚐新鮮牡蠣"
+            "注意事項：品嚐新鮮牡蠣",
+            {
+              "restaurants": [
+                {"url": "https://maps.app.goo.gl/dyWg9nE6jiS436jV7", "name": "牡蠣屋"},
+                {"url": "https://maps.app.goo.gl/fZJudC9ZZBbseTMRA", "name": "牡蠣祝"}
+              ]
+            }
           ],
           "important": false
         },
@@ -237,17 +261,17 @@
         },
         {
           "time": "19:30",
-          "description": "廣島燒",
-          "details": [
-            "需要物品：車票"
-          ],
-          "important": false
-        },
-        {
-          "time": "20:00",
           "description": "探索廣島本通商店街",
           "details": [
-            "注意事項：購物和觀光"
+            "注意事項：購物和觀光",
+            {
+              "restaurants": [
+                {"url": "https://maps.app.goo.gl/ML4gzGwRyQ3enfXCA", "name": "廣島燒"},
+                {"url": "https://maps.app.goo.gl/Bcik3bru6GXCsg22A", "name": "丸美食堂"},
+                {"url": "https://maps.app.goo.gl/VJLQr2CZjQ9ByqtVA", "name": "乾拌擔擔麵"},
+                {"url": "https://maps.app.goo.gl/W8Wi4KupeF1J8hWX8", "name": "廣島燒商場"}
+              ]
+            }
           ],
           "important": false
         },
@@ -306,7 +330,13 @@
         {
           "description": "在阿倍野或道頓堀吃晚餐",
           "details": [
-            "注意事項：品嚐當地美食"
+            "注意事項：品嚐當地美食",
+            {
+              "restaurants": [
+                {"url": "https://maps.app.goo.gl/DqkDBkVLVC5FZygy5", "name": "壽司×居酒屋"},
+                {"url": "https://maps.app.goo.gl/xDp5o6sTUW1LUsde8", "name": "神戶牛排鐵板燒"}
+              ]
+            }
           ],
           "important": false
         },

@@ -21,9 +21,23 @@ $(document).ready(function() {
                 $details.append($summary);
 
                 event.details.forEach(function(detail) {
-                    const $p = $('<p>').text(detail);
-                    $details.append($p);
-                    if (detail.includes('大阪')) {
+                    if (typeof detail === 'object' && detail.restaurants) {
+                        const $restaurantLabel = $('<p>').text('餐廳:');
+                        $details.append($restaurantLabel);
+
+                        const $restaurantUl = $('<ul>');
+                        detail.restaurants.forEach(function(restaurant) {
+                            const $restaurantLi = $('<li>');
+                            const $a = $('<a>').attr('href', restaurant.url).text(restaurant.name);
+                            $restaurantLi.append($a);
+                            $restaurantUl.append($restaurantLi);
+                        });
+                        $details.append($restaurantUl);
+                    } else {
+                        const $p = $('<p>').text(detail);
+                        $details.append($p);
+                    }
+                    if (typeof detail === 'string' && detail.includes('大阪')) {
                         containsOsaka = true;
                     }
                 });
