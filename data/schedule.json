@@ -46,7 +46,7 @@
         {
           "description": "廣島本通商店街 (晚餐)",
           "details": [
-            "需要物品：",
+            "需要物品：隨身物品",
             {
               "restaurants": [
                 {"url": "https://maps.app.goo.gl/ML4gzGwRyQ3enfXCA", "name": "廣島燒"},
@@ -61,7 +61,7 @@
         {
           "description": "回酒店",
           "details": [
-            "需要物品："
+            "需要物品：隨身物品"
           ],
           "important": false
         }
@@ -74,7 +74,7 @@
           "time": "08:00",
           "description": "早餐",
           "details": [
-            "其他：嘗試當地美食"
+            "其他：飯店早餐、便利商店..."
           ],
           "important": false
         },
@@ -207,7 +207,7 @@
           "time": "08:00",
           "description": "早餐",
           "details": [
-            "其他：嘗試當地美食"
+            "其他：飯店早餐、便利商店..."
           ],
           "important": false
         },
@@ -224,6 +224,19 @@
           "description": "參觀竹原町街景保存地區",
           "details": [
             "注意事項：拍照留念"
+          ],
+          "important": false
+        },
+        {
+          "time": "12:00",
+          "description": "午餐",
+          "details": [
+            "注意事項：",
+            {
+              "restaurants": [
+                {"url": "https://maps.app.goo.gl/S3gNkRMr5zRuJter6", "name": "御好燒 堀川"}
+              ]
+            }
           ],
           "important": false
         },
@@ -290,9 +303,9 @@
       "events": [
         {
           "time": "08:00",
-          "description": "退房",
+          "description": "退房、早餐",
           "details": [
-            "需要物品：行李"
+            "需要物品：退房手續、飯店早餐、便利商店..."
           ],
           "important": false
         },
@@ -333,8 +346,8 @@
             "注意事項：品嚐當地美食",
             {
               "restaurants": [
-                {"url": "https://maps.app.goo.gl/DqkDBkVLVC5FZygy5", "name": "壽司×居酒屋"},
-                {"url": "https://maps.app.goo.gl/xDp5o6sTUW1LUsde8", "name": "神戶牛排鐵板燒"}
+                {"url": "https://maps.app.goo.gl/DqkDBkVLVC5FZygy5", "name": "道頓堀 - 壽司×居酒屋"},
+                {"url": "https://maps.app.goo.gl/xDp5o6sTUW1LUsde8", "name": "道頓堀 - 神戶牛排鐵板燒"}
               ]
             }
           ],
@@ -356,7 +369,7 @@
           "time": "08:00",
           "description": "早餐",
           "details": [
-            "其他：嘗試當地美食"
+            "其他：飯店早餐、便利商店..."
           ],
           "important": false
         },
@@ -396,7 +409,7 @@
           "time": "15:00",
           "description": "取行李、搭電車",
           "details": [
-            "需要物品：車票"
+            "需要物品：行李、車票"
           ],
           "important": true
         },
