@@ -118,3 +118,46 @@ details.important summary {
     border-radius: 4px;
     padding: 10px;
 }
+
+/* Display checklist items in a horizontal row */
+#checklist ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex; /* Use Flexbox to arrange items horizontally */
+    flex-wrap: wrap; /* Allow wrapping to the next line if there are too many items */
+    gap: 10px; /* Add some space between items */
+}
+
+#checklist li {
+    margin-bottom: 0;
+    flex: 0 1 auto; /* Allow items to shrink and grow as needed */
+    padding: 5px;
+}
+
+#checklist details {
+    padding: 5px; 
+    margin-bottom: 0; /* Remove margin between checklist items */
+}
+
+#checklist details[open] {
+    padding-bottom: 10px;
+}
+
+#checklist summary {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#checklist div {
+    margin-left: 5px; /* Reduce indent for nested checkboxes */
+    margin-bottom: 3px; 
+}
+
+#checklist input[type="checkbox"] {
+    margin-right: 5px; 
+}
+
+#checklist label {
+    font-size: 14px;
+}
