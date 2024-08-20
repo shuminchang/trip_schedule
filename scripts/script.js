@@ -82,24 +82,24 @@ $(document).ready(function() {
 $(document).ready(function() {
     const checklistItems = [
         {
-            category: '護照/簽證',
+            category: '證件',
             icon: 'fas fa-passport',
             items: ['護照', '入境(線上)', '登機證']
         },
         {
-            category: '網路、錢',
-            icon: 'fas fa-wifi',
-            items: ['遠傳漫遊', '日幣、信用卡']
-        },
-        {
-            category: '交通',
+            category: '票券',
             icon: 'fas fa-bus',
-            items: ['HARUKA機場快線', '關西廣島周遊券', 'ICOCA大阪交通卡', '渡輪票、渡輪時間']
+            items: ['HARUKA機場快線', '關西廣島周遊券', 'ICOCA大阪交通卡', '渡輪票、時間']
         },
         {
             category: '行李',
             icon: 'fas fa-suitcase',
-            items: ['衣物', '盥洗用具', '眼罩、頸枕、耳塞', '個人藥品', '雨具', '充電器、行動電源']
+            items: ['衣物', '盥洗用具', '睡眠用具', '個人藥品', '雨具', '充電器', '行動電源']
+        },
+        {
+            category: '其他',
+            icon: 'fas fa-wifi',
+            items: ['遠傳漫遊', '日幣', '信用卡', '家裡鑰匙']
         }
     ];
 
