@@ -121,6 +121,7 @@ details.important summary {
 
 /* Display checklist items in a horizontal row */
 #checklist ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
     list-style: none;
