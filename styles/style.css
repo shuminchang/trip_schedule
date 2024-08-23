@@ -162,3 +162,11 @@ details.important summary {
 #checklist label {
     font-size: 14px;
 }
+
+#checklist summary {
+    list-style-type: none;
+}
+
+#checklist summary::marker {
+    display: none;
+}
