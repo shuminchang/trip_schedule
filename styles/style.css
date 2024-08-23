@@ -164,9 +164,9 @@ details.important summary {
 }
 
 #checklist summary {
-    list-style-type: none;
+    list-style: none;
 }
 
-#checklist summary::marker {
+#checklist summary::-webkit-details-marker {
     display: none;
 }
