@@ -21,7 +21,7 @@ $(document).ready(function() {
                 const $summary = $('<summary>').html(`${getEventIcon(event.description)} ${event.time ? `${event.time}: ` : ''}${event.description}`);
                 $details.append($summary);
 
-                if (event.description.includes('岡山') {
+                if (event.description.includes('岡山')) {
                     containsOkayama = true;
                 }
 
