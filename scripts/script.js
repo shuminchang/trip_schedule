@@ -10,6 +10,7 @@ $(document).ready(function() {
 
             const $ul = $('<ul>');
             let containsOsaka = false;
+            let containsOkayama = false;
 
             day.events.forEach(function(event) {
                 const $li = $('<li>');
@@ -19,6 +20,10 @@ $(document).ready(function() {
                 }
                 const $summary = $('<summary>').html(`${getEventIcon(event.description)} ${event.time ? `${event.time}: ` : ''}${event.description}`);
                 $details.append($summary);
+
+                if (typeof detail === 'string' && event.description.includes('岡山') {
+                    containsOkayama = true;
+                }
 
                 event.details.forEach(function(detail) {
                     if (typeof detail === 'object' && detail.restaurants) {
@@ -71,6 +76,10 @@ $(document).ready(function() {
             // Set background image for sections containing Osaka
             if (containsOsaka) {
                 $h2.css('background-image', "url('./images/osaka-image.jpg')");
+            }
+
+            if (containsOkayama) {
+                $h2.css('background-image', "url('./images/okayama-image.jpg')");
             }
         });
 
