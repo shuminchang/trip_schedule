@@ -321,9 +321,9 @@
           "time": "12:00",
           "description": "參觀倉敷美觀地區",
           "details": [
-            "注意事項：拍照留念"
+            "倉敷川遊船：先排隊，觀光案內所買票，紅傘處乘船"
           ],
-          "important": false
+          "important": true
         },
         {
           "time": "下午",
